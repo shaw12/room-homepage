@@ -1,6 +1,6 @@
 var slideIndex = 1;
 showSlides(slideIndex);
-window.onresize = function(){ location.reload(); }
+
 function plusSlides(n){
     showSlides(slideIndex += n);
 }
