@@ -144,7 +144,7 @@ nav ul li{
         margin-left: 0px;
         padding-right: 30px;
         justify-content: flex-end;
-
+        display: none;
     }
     nav ul li{
         font-weight: 900;
