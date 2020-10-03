@@ -13,13 +13,13 @@ nav{
     position: fixed;
     top: 20px;
     padding: 50px 70px;
-    display: flex;
+    display: flex !important;
     align-items: center !important;
     justify-content: space-between;
 }
 nav ul{
     list-style-type: none;
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     align-items: center !important;
     color: #fff;
