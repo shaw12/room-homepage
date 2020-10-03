@@ -1,6 +1,6 @@
 var slideIndex = 1;
 showSlides(slideIndex);
-https://github.com/shaw12/room-homepage
+window.onresize = function(){ location.reload(); }
 function plusSlides(n){
     showSlides(slideIndex += n);
 }
@@ -26,14 +26,6 @@ function showSlides(n){
         imgs[i].style.display = "none";
         desc[i].style.display = "none";
     }
-    // if (window.matchMedia("(max-width: 768px)").matches){
-    //     imgSmall[slideIndex-1].style.display = "block";
-    //     //imgBig[i].style.display = "none";
-    // } else{
-    //     imgBig[slideIndex-1].style.display = "block";
-    //     //imgSmall[i].style.display = "none";
-    // }
-
     imgs[slideIndex-1].style.display = "block";
     desc[slideIndex-1].style.display = "block";
 }
