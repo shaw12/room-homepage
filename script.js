@@ -1,6 +1,6 @@
 var slideIndex = 1;
 showSlides(slideIndex);
-
+https://github.com/shaw12/room-homepage
 function plusSlides(n){
     showSlides(slideIndex += n);
 }
